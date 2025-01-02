@@ -18,10 +18,10 @@ theme:
         icon: material/toggle-switch-off-outline
         name: 转到夜间模式
       primary: teal
-      accent: purple
+      accent: orange
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: 转到日间模式
       primary: teal
-      accent: lime
+      accent: orange
