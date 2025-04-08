@@ -1,27 +1,40 @@
-site_name: Ward Lee
+site_name: Ward Lee的个人网站
 theme:
   name: material
   features:
+    - toc.follow                    # 锚跟随
+    - navigation.top                # 返回顶部按钮
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    # - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+
+    - navigation.prune
   language: zh
+  
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+
   palette:
     - scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: 转到日间模式
-      primary: teal
-      accent: orange
+        icon: material/weather-night
+        #name: 转到日间模式
+      primary: indigo
+      accent: deep purple
     - scheme: default
       toggle:
-        icon: material/toggle-switch
-        name: 转到夜间模式
-      primary: teal
-      accent: orange
+        icon: material/weather-sunny
+        #name: 转到夜间模式
+      primary: indigo
+      accent: deep purple
+
+extra_css:
+  - stylesheets/extra.css
